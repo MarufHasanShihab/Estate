@@ -1,8 +1,11 @@
+import Header from "./Components/Header/Header";
 
 function App() {
-  return <>
-   <h1>Hello world</h1>
-  </>;
+  return (
+    <div className="w-full overflow-hidden">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
